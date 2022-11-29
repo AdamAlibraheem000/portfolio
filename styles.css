@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --background: #000000;
+    --red: #ff0a54;
+    --white: #fff;
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --dark-grey: #282A3A;
+    --grey: #393E46;
+    --very-dark: #1B2430;
+}
+
 
 *{
     box-sizing: border-box;
@@ -6,10 +19,17 @@
 }
 
 body{
-    background-color: black;
+    background-color: #000000;
+    font-family: "Roboto", sans-serif;
 
 }
 
 h1{
-    color: red;
+    /* display: inline; */
+    color: var(--white);
+    background-color: var(--very-dark);
+}
+
+span{
+    background-color: var(--red);
 }
